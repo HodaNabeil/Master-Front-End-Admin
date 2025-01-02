@@ -1,0 +1,63 @@
+## Master - Client
+
+test Private
+
+
+
+       Hello Dear, We Have Received A Request To Reset The Password For Your Account. 
+
+       Please Use The Following URL To Reset Your Password.
+       
+        https://masterv.net/forget?PhoneNumber=201069017890&c=417585&u=A
+            
+       This Link Will Expire In 2 Hours.
+       If You Did Not Request This Password Reset,
+
+       Please ignore this message.
+       Best Regards
+       
+
+
+
+
+  // useEffect(() => {
+  //   const Search = window.location.search
+  //   const Test = new URLSearchParams(Search)
+  //   console.log({
+  //     Phone: Test.get("PhoneNumber"),
+  //     Code: Test.get("c"),
+  //     Utype: Test.get("u")
+  //   })
+  // }, [])
+
+      // const Dispatch = useDispatch()
+    // function Logout() {
+    //   Helper.ClearStorage()
+    //   Dispatch(LogoutR())
+    // }
+    < Button
+  type = "button"
+  onClick = {() => Logout()}
+      >
+  <Link
+    to={RoutingManager.Client.Commercial.Path}
+  >
+    {RoutingManager.Client.Commercial.Name}
+  </Link>
+      </Button >
+  <LangSwitch />
+
+
+  SidebarSize = 22 = 22%
+
+
+  <Box
+    w={{
+      lg : 100 - SidebarSize +"%",
+      md : ((100 - SidebarSize) - (
+        10)) + "%",
+      
+    }}
+  
+  ></Box>
+  <div></div>

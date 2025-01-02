@@ -1,0 +1,132 @@
+* {
+    padding    : 0;
+    margin     : 0;
+    box-sizing : border-box;
+    font-family: "Cairo", sans-serif !important;
+}
+
+.Container {
+    padding: 0px 10px;
+}
+
+.transition {
+    transition        : 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+    -moz-transition   : 0.3s all linear;
+    -ms-transition    : 0.3s all linear;
+    -o-transition     : 0.3s all linear;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.Data-Bg {
+    background     : url("/Img/AppDataRightBg.webp") no-repeat;
+    background-size: 100% 100% !important;
+    /* background-color: transparent; */
+}
+
+.text-ellipsis {
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    white-space  : nowrap;
+    display      : block !important;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.317);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing : 55px;
+    border-color   : transparent;
+    border-color   : #292727;
+    border-collapse: separate;
+    /* Important for border-radius to work */
+    border-spacing : 0;
+}
+
+[role="region"][aria-labelledby][tabindex] {
+    overflow: auto;
+}
+
+thead,
+tbody {
+    width: 100%;
+}
+
+.test {
+    color: #292727;
+}
+
+.OverLay {
+    position       : fixed;
+    left           : 0px;
+    top            : 0px;
+    width          : 100vw;
+    height         : 100vh;
+    background     : var(--chakra-colors-blackAlpha-600);
+    z-index        : var(--chakra-zIndices-modal);
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+th:first-child {
+    border-top-left-radius   : var(--chakra-radii-xl) !important;
+    border-bottom-left-radius: var(--chakra-radii-xl) !important;
+}
+
+th:last-child {
+    border-top-right-radius   : var(--chakra-radii-xl) !important;
+    border-bottom-right-radius: var(--chakra-radii-xl) !important;
+}
+
+html:lang(ar) th:first-child {
+    border-top-left-radius    : unset !important;
+    border-bottom-left-radius : unset !important;
+    border-top-right-radius   : var(--chakra-radii-xl) !important;
+    border-bottom-right-radius: var(--chakra-radii-xl) !important;
+}
+
+html:lang(ar) th:last-child {
+    border-top-right-radius   : unset !important;
+    border-bottom-right-radius: unset !important;
+    border-top-left-radius    : var(--chakra-radii-xl) !important;
+    border-bottom-left-radius : var(--chakra-radii-xl) !important;
+}
+
+td:first-child {
+    border-top-left-radius   : var(--chakra-radii-xl) !important;
+    border-bottom-left-radius: var(--chakra-radii-xl) !important;
+}
+
+td:last-child {
+    border-top-right-radius   : var(--chakra-radii-xl) !important;
+    border-bottom-right-radius: var(--chakra-radii-xl) !important;
+}
+
+
+html:lang(ar) td:first-child {
+    border-top-left-radius    : unset !important;
+    border-bottom-left-radius : unset !important;
+    border-top-right-radius   : var(--chakra-radii-xl) !important;
+    border-bottom-right-radius: var(--chakra-radii-xl) !important;
+}
+
+html:lang(ar) td:last-child {
+    border-top-right-radius   : unset !important;
+    border-bottom-right-radius: unset !important;
+    border-top-left-radius    : var(--chakra-radii-xl) !important;
+    border-bottom-left-radius : var(--chakra-radii-xl) !important;
+}
+
+.Shadow-Auth {
+    border: 2px solid rgba(240, 240, 240, 0.30) !important;
+}
+
+/* [data-theme="dark"] .Shadow-Auth {
+    border: 1px solid rgba(0, 0, 0, 0.30) !important;
+} */

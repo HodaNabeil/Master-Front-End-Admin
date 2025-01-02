@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.futuretechdev.com</loc>
+        <lastmod>2023-08-31</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- /record -->
+    <url>
+        <loc>https://www.futuretechdev.com/record</loc>
+        <lastmod>2023-08-30</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- /settings -->
+    <url>
+        <loc>https://www.futuretechdev.com/settings</loc>
+        <lastmod>2023-08-29</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <!-- /auth/sign -->
+    <url>
+        <loc>https://www.futuretechdev.com/auth/sign</loc>
+        <lastmod>2023-08-29</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <!-- /comparison -->
+    <url>
+        <loc>https://www.futuretechdev.com/comparison</loc>
+        <lastmod>2023-08-29</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>

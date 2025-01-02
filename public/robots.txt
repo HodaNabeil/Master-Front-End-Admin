@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /admin/sign
+Allow: /$
+Allow: /*.js$
+Allow: /*.css$
+Sitemap: https://www.futuretechdev.com/sitemap.xml
