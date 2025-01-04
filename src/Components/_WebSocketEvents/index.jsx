@@ -20,7 +20,7 @@ export default function WebSocketEvents({ Socket, UserId, Notify, dispatch, User
             PathName?.toLowerCase() == RoutingManager.Client.Auth.Path?.toLowerCase()
             // PathName?.toLowerCase()?.includes(RoutingManager.Client.Auth.Path?.toLowerCase())
         ) {
-            navigate(RoutingManager.Client.Data.Path);
+            navigate(RoutingManager.Client.Admin.Path);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [PathName, User?.UserAccessToken]);

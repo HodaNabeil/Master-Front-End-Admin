@@ -8,14 +8,12 @@ import { WebSocketEvents } from "./Components";
 import { useNotify, useOnline } from "./Hooks";
 import { Box } from "@chakra-ui/react";
 import { Loader, OfflineMessage } from "./Common";
-import Dashboard from "./Pages/Dashboard";
 import Admin from "./Pages/Admin";
 
 const Error404 = lazy(() => import("./Pages/Error404"));
-const AppDataPage = lazy(() => import("./Pages/Data"));
+
 const AuthPage = lazy(() => import("./Pages/Auth"));
 const AuthResetPage = lazy(() => import("./Pages/Auth/Reset"));
-const SettingsPage = lazy(() => import("./Pages/Settings"));
 function App() {
     const { ServerStatus } = useSelector((state) => state.Helper);
     const IsOnline = useOnline();
@@ -85,9 +83,7 @@ function App() {
                         path={RoutingManager.Client.AuthReset.Path}
                         element={<AuthResetPage Type={"Password"} />}
                     />
-                    <Route path={RoutingManager.Client.Data.Path} element={<AppDataPage />} />
-                    <Route path={RoutingManager.Client.Settings.Path} element={<SettingsPage />} />
-                    <Route path={RoutingManager.Client.Dashboard.Path} element={<Dashboard />} />
+
                     <Route path={RoutingManager.Client.Admin.Path} element={<Admin />} />
                     <Route path="*" element={<Error404 />} />
                 </Routes>
